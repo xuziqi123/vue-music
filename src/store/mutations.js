@@ -1,0 +1,41 @@
+import * as types from "./mutation-types.js"
+const mutations={
+	//第一个参数为state,第二个参数为要修改的数据
+	[types.SET_SINGER](state,singer){
+		state.singer=singer
+	},
+	[types.SET_PLAYING_STATE](state,flag){
+		state.playing=flag
+	},
+	[types.SET_FULLSCREEN_STATE](state,flag){
+		state.fullScreen=flag
+	},
+	[types.SET_PLAYLIST_STATE](state,list){
+		state.playList=list
+	},
+	[types.SET_SEQUENCELIST_STATE](state,list){
+		state.sequenceList=list
+	},
+	[types.SET_MODE_STATE](state,mode){
+		state.mode=mode
+	},
+	[types.SET_CURRENTINDEX_STATE](state,index){
+		state.currentIndex=index
+	},
+	[types.SET_DISC](state,disc){
+		state.disc=disc;
+	},
+	[types.SET_TOPLIST](state,topList){
+		state.topList=topList
+	},
+	[types.SET_HISTORY](state,history){
+		state.searchHistory=history;
+	},
+	[types.SET_PLAYHISTORY](state,history){
+		state.playHistory=history;
+	},
+	[types.SET_FAVORITE_LIST](state,list){
+		state.favoriteList=list;
+	}
+}
+export default mutations;
