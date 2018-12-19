@@ -44,6 +44,7 @@ axios:服务器端通讯，结合node.js后端代理请求，赚取QQ音乐移动端数据。
 4. npm install --production
 5. npm run dev
 详细教程请看：https://www.jianshu.com/p/8914bb679347
+bay
 
 
 
